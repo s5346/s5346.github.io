@@ -1,78 +1,50 @@
-# Jekyll-Bootstrap
+我是iOS工程師
+目前SOHO接接外包
+打算練練副職業Python
+請多指教
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+以前開發自己的APP'別說'時
+用PHP寫了簡單的後台
+開API給APP使用
+後來又做了另一款'[微心](http://s5346-blog.logdown.com/posts/304943-micro-app-micro-mind)'
+是'別說'的進階版
+所以就把'別說'下架了
+但'[微心](http://s5346-blog.logdown.com/posts/304943-micro-app-micro-mind)'使用的後台是leancloud
+就不是自己寫的了
 
-## Usage
+直到最近有客戶把整個案子包給我
+也就是包含企劃,android,iOS,後台,設計
+設計跟android我請朋友幫忙
+因為後台架構不大
+而iOS我預估不用花多少時間
+就趁機來自己練習寫
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+但因為是客戶要用的
+所以必須要有後台管理系統給客戶上資料
+以前寫的PHP只有單純的API跟MySql溝通
+沒熟練到可以寫管理介面
+恰巧對python蠻有興趣的
+所以就來學習以python做的Django
 
-## Version
+為什麼選擇這個呢?
+選擇它的原因是因為他有個好處
+Django有一個內建的套件admin
+只要你在Django有設定模組
+也就是設定資料庫有哪些資料
+它自動就會產生後台管理系統
+可以在這新增、刪除、修改資料
+也就很符合我的需求
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Milestones
-
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
-
-### GOALS
-
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
-
-
-### Bugs
-
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
-
-### Features
-
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
-
-### TODOS
-
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
-
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+我想有些人應該跟我一樣
+想學網站
+但看完HTML,CSS後又不知道該做什麼了
+心血來潮又再翻
+又回到原點
+因為工程師又會設計的很少
+我建議可以學Django
+它是MVC架構
+前後台分開
+學一下怎麼建資料
+比如網站常有的選單
+然後在找個別人做的漂漂亮亮的免費靜態網頁套上去
+看起來就像一個專業的動態網站了XD
