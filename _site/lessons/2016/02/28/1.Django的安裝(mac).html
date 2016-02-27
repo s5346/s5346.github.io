@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Categories</title>
+    <title>1.django的安裝(mac)</title>
     
     <meta name="author" content="Name Lastname">
 
@@ -81,7 +81,7 @@
     
       
       	
-      	<li class="active"><a href="/categories" class="active">Categories</a></li>
+      	<li><a href="/categories">Categories</a></li>
       	
       
     
@@ -130,16 +130,71 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Categories </h1>
+  <h1>1.django的安裝(mac) </h1>
 </div>
 
-<div class="row">
+<div class="row post-full">
   <div class="col-xs-12">
-    
+    <div class="date">
+      <span>28 February 2016</span>
+    </div>
+    <div class="content">
+      <p>#####1.安裝python<br />
+內建雖然有python<br />
+但版本只有2.x<br />
+所以先<a href="https://www.python.org/downloads/mac-osx/">下載新版3.5.1</a><br />
+然後安裝</p>
 
-<ul class="tag_box inline">
+<p>#####2.安裝pip<br />
+pip為python的管理套件<br />
+python3應有內建<br />
+沒有的話就安裝<br />
+<code>
+$sudo easy_install pip
+</code>
+觀看所有安裝的套件<br />
+<code>
+$pip list
+</code>
+移除所安裝的套件<br />
+<code>
+$pip uninstall 套件名稱
+</code></p>
+
+<p>#####3.安裝virtualenv<br />
+如果開發多個專案，又都不同的python、Django版本，虛擬環境就可以創建一個乾淨的環境做開發<br />
+<code>
+$pip3 install virtualenv
+</code>
+建立虛擬環境<br />
+<code>
+$python3 -m venv 自建名稱
+</code>
+啟動虛擬環境<br />
+<code>
+$source 自建名稱/bin/activate
+</code>
+啟動成功的話<br />
+開頭會有個(自建名稱)xxxx$</p>
+
+<p>#####4.安裝Django<br />
+開發網站的套件<br />
+<code>
+$pip install django
+</code>
+如果需要指定版本<br />
+<code>
+$pip install django==1.9.1
+</code></p>
+
+
+    </div>
+
   
-  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
 
 
   
@@ -151,37 +206,41 @@
   
 
 
-</ul>
-
-
- 
-  <h2 id="lessons-ref">lessons</h2>
-  <ul>
-      
+    </ul>
     
 
-
-  
-    
-      
-      	
-      	<li><a href="/lessons/2016/02/28/1.Django%E7%9A%84%E5%AE%89%E8%A3%9D(mac)">1.django的安裝(mac)</a></li>
-      	
-      
     
   
+    <hr>
+    <ul class="pagination">
     
-      
-      	
-      	<li><a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
-      	
-      
+      <li class="prev"><a href="/lessons/2011/12/29/jekyll-introduction" title="Jekyll Introduction">&laquo; Previous</a></li>
     
-  
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next disabled"><a>Next &rarr;</a>
+    
+    </ul>
+    <hr>
+    
 
 
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-  </ul>
 
 
 

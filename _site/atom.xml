@@ -4,13 +4,69 @@
  <title>Jekyll Bootstrap</title>
  <link href="http://username.github.io/atom.xml" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2016-02-28T01:12:21+08:00</updated>
+ <updated>2016-02-28T01:44:54+08:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>Name Lastname</name>
    <email>blah@email.test</email>
  </author>
 
+ 
+ <entry>
+   <title>1.django的安裝(mac)</title>
+   <link href="http://username.github.io/lessons/2016/02/28/1.Django%E7%9A%84%E5%AE%89%E8%A3%9D(mac)"/>
+   <updated>2016-02-28T00:00:00+08:00</updated>
+   <id>http://username.github.io/lessons/2016/02/28/1.Django的安裝(mac)</id>
+   <content type="html">&lt;p&gt;#####1.安裝python&lt;br /&gt;
+內建雖然有python&lt;br /&gt;
+但版本只有2.x&lt;br /&gt;
+所以先&lt;a href=&quot;https://www.python.org/downloads/mac-osx/&quot;&gt;下載新版3.5.1&lt;/a&gt;&lt;br /&gt;
+然後安裝&lt;/p&gt;
+
+&lt;p&gt;#####2.安裝pip&lt;br /&gt;
+pip為python的管理套件&lt;br /&gt;
+python3應有內建&lt;br /&gt;
+沒有的話就安裝&lt;br /&gt;
+&lt;code&gt;
+$sudo easy_install pip
+&lt;/code&gt;
+觀看所有安裝的套件&lt;br /&gt;
+&lt;code&gt;
+$pip list
+&lt;/code&gt;
+移除所安裝的套件&lt;br /&gt;
+&lt;code&gt;
+$pip uninstall 套件名稱
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;#####3.安裝virtualenv&lt;br /&gt;
+如果開發多個專案，又都不同的python、Django版本，虛擬環境就可以創建一個乾淨的環境做開發&lt;br /&gt;
+&lt;code&gt;
+$pip3 install virtualenv
+&lt;/code&gt;
+建立虛擬環境&lt;br /&gt;
+&lt;code&gt;
+$python3 -m venv 自建名稱
+&lt;/code&gt;
+啟動虛擬環境&lt;br /&gt;
+&lt;code&gt;
+$source 自建名稱/bin/activate
+&lt;/code&gt;
+啟動成功的話&lt;br /&gt;
+開頭會有個(自建名稱)xxxx$&lt;/p&gt;
+
+&lt;p&gt;#####4.安裝Django&lt;br /&gt;
+開發網站的套件&lt;br /&gt;
+&lt;code&gt;
+$pip install django
+&lt;/code&gt;
+如果需要指定版本&lt;br /&gt;
+&lt;code&gt;
+$pip install django==1.9.1
+&lt;/code&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Jekyll Introduction</title>
