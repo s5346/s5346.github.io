@@ -17,12 +17,4 @@ github_username:  s5346
 # Build settings
 markdown: kramdown
 
-pygments: true
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
+highlighter: pygments
