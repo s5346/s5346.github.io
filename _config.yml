@@ -17,10 +17,3 @@ github_username:  s5346
 # Build settings
 markdown: kramdown
 
-# 阅读处理
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
