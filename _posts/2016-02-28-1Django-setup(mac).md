@@ -1,8 +1,7 @@
 ---
 layout: post
-category : lessons
-tagline: 
-tags : 
+title:  "1.Django的安裝(mac)"
+categories: Django
 ---
 #####1.安裝python  
 內建雖然有python  
