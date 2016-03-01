@@ -16,3 +16,6 @@ github_username:  s5346
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
